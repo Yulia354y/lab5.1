@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Оновлення класу Economy для використання виключення
 class Economy extends DataInput implements Reportable {
     private double taxRate;  // Ставка податку
@@ -43,4 +45,5 @@ class Economy extends DataInput implements Reportable {
         double taxRevenue = calculateTax();
         distributeTax(taxRevenue);
     }
+
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Клас Geography, що реалізує Reportable для звітів про географію
 class Geography extends DataInput implements Reportable {
     private double totalArea;  // Загальна площа
@@ -24,5 +26,8 @@ class Geography extends DataInput implements Reportable {
     public void displayReport() {
         System.out.println("Відсоток суші: " + calculateLandPercentage() + "%");
         System.out.println("Відношення води до суші: " + calculateWaterToLandRatio());
+    }
+
+    public void input(Scanner scanner) {
     }
 }

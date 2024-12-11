@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Клас Population, що реалізує Reportable для звітів про населення
 // Оновлення класу Population для використання виключення
 class Population extends DataInput implements Reportable {
@@ -56,4 +58,5 @@ class Population extends DataInput implements Reportable {
         System.out.println("Кількість міського населення: " + urbanPopulation);
         System.out.println("Густота населення: " + calculateDensity() + " осіб/кв. км");
     }
+
 }
