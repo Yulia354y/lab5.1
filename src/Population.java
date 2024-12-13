@@ -1,8 +1,5 @@
 import java.util.Scanner;
-
-// Клас Population, що реалізує Reportable для звітів про населення
-// Оновлення класу Population для використання виключення
-class Population extends DataInput implements Reportable {
+public class Population extends DataInput implements Reportable {
     private int totalPopulation; // Загальна кількість населення
     private int urbanPopulation; // Кількість міського населення
     private double area;         // Площа країни

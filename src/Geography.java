@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
-// Клас Geography, що реалізує Reportable для звітів про географію
-class Geography extends DataInput implements Reportable {
+public class Geography extends DataInput implements Reportable {
     private double totalArea;  // Загальна площа
     private double landArea;   // Площа суші
 

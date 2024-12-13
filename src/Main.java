@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Створюємо три об'єкти країн
+
         Country ukraine = new Country("Україна", "Київ", 41, 40.93);
         Country germany = new Country("Німеччина", "Берлін", 83, 0.94);
         Country japan = new Country("Японія", "Токіо", 125, 145.67);
@@ -11,7 +11,7 @@ public class Main {
         // Масив країн для доступу до них
         Country[] countries = {ukraine, germany, japan};
 
-        // Меню для взаємодії
+
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("--- Меню ---");
@@ -38,7 +38,7 @@ public class Main {
         }
     }
 
-    // Метод для вибору країни і виведення інформації
+
     private static void selectAndDisplayCountry(Country[] countries, Scanner scanner) {
         System.out.println("Доступні країни:");
         for (int i = 0; i < countries.length; i++) {
@@ -53,7 +53,7 @@ public class Main {
         }
     }
 
-    // Метод для порівняння двох країн
+    //порівняння двох країн
     private static void compareSelectedCountries(Country[] countries, Scanner scanner) {
         System.out.println("Оберіть першу країну для порівняння:");
         for (int i = 0; i < countries.length; i++) {
@@ -76,7 +76,7 @@ public class Main {
         }
     }
 
-    // Метод для порівняння двох країн
+    // порівняння двох країн
     private static void compareCountries(Country country1, Country country2) {
         System.out.println("Порівняння країн:");
         System.out.println(country1.getName() + " має населення " + country1.getPopulation() + " мільйонів.");
@@ -90,7 +90,7 @@ public class Main {
         }
     }
 
-    // Метод для конвертації валюти
+    // конвертації валюти
     private static void convertCurrency(Country[] countries, Scanner scanner) {
         System.out.println("Доступні країни для конвертації валюти:");
         for (int i = 0; i < countries.length; i++) {
@@ -109,7 +109,7 @@ public class Main {
         }
     }
 
-    // Метод для запуску DataManager
+
     private static void runDataManager(Scanner scanner) {
         DataManager manager = new DataManager();
 

@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
-// Оновлення класу Economy для використання виключення
-class Economy extends DataInput implements Reportable {
+public class Economy extends DataInput implements Reportable {
     private double taxRate;  // Ставка податку
     private double annualIncome;
 

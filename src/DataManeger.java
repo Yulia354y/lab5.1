@@ -1,4 +1,3 @@
-// Клас DataManager для керування списком об'єктів
 import java.util.ArrayList;
 import java.util.List;
 class DataManager {

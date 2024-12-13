@@ -4,7 +4,7 @@ public class Country {
     private int population; // Населення в мільйонах
     private double currencyRate; // Обмінний курс до долара США
 
-    // Конструктор
+
     public Country(String name, String capital, int population, double currencyRate) {
         this.name = name;
         this.capital = capital;
@@ -12,7 +12,7 @@ public class Country {
         this.currencyRate = currencyRate;
     }
 
-    // Гетери
+
     public String getName() {
         return name;
     }
@@ -29,7 +29,7 @@ public class Country {
         return currencyRate;
     }
 
-    // Сетери
+
     public void setName(String name) {
         this.name = name;
     }
@@ -46,7 +46,7 @@ public class Country {
         this.currencyRate = currencyRate;
     }
 
-    // Метод для відображення інформації про країну
+
     public void displayInfo() {
         System.out.println("Назва країни: " + name);
         System.out.println("Столиця: " + capital);
